@@ -1,5 +1,5 @@
-import {createRoot} from "react-dom/client"
-import { createBrowserRouter,RouterProvider } from "react-router-dom"
+import { createRoot } from "react-dom/client"
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import App from "./App"
 import Homepage from "./pages/Homepage"
 import Contact from "./pages/Contact"
@@ -24,106 +24,116 @@ import Instagram from "./Contacts/Instagram"
 import Telegram from "./Contacts/Telegram"
 import LinkedIn from "./Contacts/LinkedIn"
 import Loginpage from "./pages/Loginpage"
+import Signin from "./pages/Signin"
+import Blog from "./pages/Blog"
 import './index.css'
 import './App.css'
 
-const route  = createBrowserRouter([
+const route = createBrowserRouter([
     {
-        path:"/",
-        element:<App/>,
-        errorElement:<Error/>,
-        children:[
+        path: "/",
+        element: <App />,
+        errorElement: <Error />,
+        children: [
             {
-                path:"/",
-                element:<Homepage/>
+                path: "/",
+                element: <Homepage />
             },
             {
-                path:"/contact",
-                element:<Contact/>
+                path: "/contact",
+                element: <Contact />
             },
             {
-                path:"/information",
-                element:<AllInfo/>
+                path: "/information",
+                element: <AllInfo />
             },
             {
-                path:"/project",
-                element:<Projects/>
+                path: "/project",
+                element: <Projects />
             },
             {
-                path:"/counter",
-                element:<Counter/>
+                path: "/counter",
+                element: <Counter />
             },
             {
-                path:"/stopwatch",
-                element:<Stopwatch/>
+                path: "/stopwatch",
+                element: <Stopwatch />
             },
             {
-                path:"/jokes",
-                element:<Jokes/>
+                path: "/jokes",
+                element: <Jokes />
             },
             {
-                path:"/accessory",
-                element:<AllAccessories/>
+                path: "/accessory",
+                element: <AllAccessories />
             },
             {
-                path:"/accessorydetail/:producttitle",
-                element:<AccessoryDetail/>
+                path: "/accessorydetail/:producttitle",
+                element: <AccessoryDetail />
             },
             {
-                path:"/grocery",
-                element:<Allgrocery/>
+                path: "/grocery",
+                element: <Allgrocery />
             },
             {
-                path:"/grocerydetail/:producttitle",
-                element:<GroceryDetail/>
+                path: "/grocerydetail/:producttitle",
+                element: <GroceryDetail />
             },
             {
-                path:"mix",
-                element:<MixProduct/>
+                path: "mix",
+                element: <MixProduct />
             },
             {
-                path:"/cat",
-                element:<CatImages/>
+                path: "/cat",
+                element: <CatImages />
             },
             {
-                path:"/dog",
-                element:<DogImages/>
+                path: "/dog",
+                element: <DogImages />
             },
             {
-                path:"/allcountry",
-                element:<AllCountry/>
+                path: "/allcountry",
+                element: <AllCountry />
             },
             {
-                path:"/country/:title",
-                element:<CountryDetail/>
+                path: "/country/:title",
+                element: <CountryDetail />
             },
             {
-                path:"/music",
-                element:<MusicPlayer/>
+                path: "/music",
+                element: <MusicPlayer />
             },
             {
-                path:"/whatsapp",
-                element:<WhatsApp/>
+                path: "/whatsapp",
+                element: <WhatsApp />
             },
             {
-                path:"/instagram",
-                element:<Instagram/>
+                path: "/instagram",
+                element: <Instagram />
             },
             {
-                path:"/telegram",
-                element : <Telegram/>
+                path: "/telegram",
+                element: <Telegram />
             },
             {
-                path:"/linkedin",
-                element:<LinkedIn/>
+                path: "/linkedin",
+                element: <LinkedIn />
             },
             {
-                path:"/login",
-                element:<Loginpage/>
+                path: "/login",
+                element: <Loginpage />
+            },
+            {
+                path: "/sign",
+                element: <Signin />
+            },
+            {
+                path: "/blog",
+                element: <Blog />
             }
         ]
     }
 ])
 
 const root = createRoot(document.querySelector('#root'))
-root.render(<RouterProvider router={route}/>)
+root.render(<RouterProvider router={route} />)

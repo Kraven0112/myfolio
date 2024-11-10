@@ -25,7 +25,7 @@ export default function Header() {
           <Link to={"/"}>Home</Link>
           <Link to={"/contact"}>Contact</Link>
           <Link to={"/project"}>Project</Link>
-          <Link to={"/"}>Blogs</Link>
+          <Link to={"/blog"}>Blogs</Link>
         </nav>
         <div className="flex">
           <Link to={"/"} className={` text-xl mx-4 lg:hidden block`}>
@@ -53,7 +53,7 @@ export default function Header() {
           >
             <i className="fa-solid fa-bars"></i>
           </button>
-          <Link to={"/login"} className={` text-xl mx-3 hidden md:block ${isDark?"text-blue-600":"text-blue-700"}`}>
+          <Link to={"/sign"} className={` text-xl mx-3 hidden md:block ${isDark?"text-blue-600":"text-blue-700"}`}>
             Sign-in
           </Link>
           <Link to={""} className={` text-xl mx-3 hidden md:block ${isDark?"text-blue-600":"text-blue-700"}`}>
