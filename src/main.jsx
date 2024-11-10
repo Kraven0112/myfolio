@@ -124,7 +124,7 @@ const route = createBrowserRouter([
                 element: <Loginpage />
             },
             {
-                path: "/sign",
+                path: "/signIn",
                 element: <Signin />
             },
             {

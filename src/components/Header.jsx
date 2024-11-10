@@ -53,7 +53,7 @@ export default function Header() {
           >
             <i className="fa-solid fa-bars"></i>
           </button>
-          <Link to={"/sign"} className={` text-xl mx-3 hidden md:block ${isDark?"text-blue-600":"text-blue-700"}`}>
+          <Link to={"/signIn"} className={` text-xl mx-3 hidden md:block ${isDark?"text-blue-600":"text-blue-700"}`}>
             Sign-in
           </Link>
           <Link to={""} className={` text-xl mx-3 hidden md:block ${isDark?"text-blue-600":"text-blue-700"}`}>
