@@ -1,7 +1,6 @@
 import { useContext, useState } from "react"
 import { Link } from "react-router-dom"
 import { ThemeContext } from "../contexts/ThemeContext"
-
 export default function Header() {
   const [isDark, setDark] = useContext(ThemeContext)
   const [isVisible, setVisibility] = useState(false)
@@ -53,12 +52,10 @@ export default function Header() {
           >
             <i className="fa-solid fa-bars"></i>
           </button>
-          <Link to={"/signIn"} className={` text-xl mx-3 hidden md:block ${isDark?"text-blue-600":"text-blue-700"}`}>
+          <Link to={''} className={` text-xl mx-3 hidden md:block ${isDark?"text-blue-600":"text-blue-700"}`}>
             Sign-in
           </Link>
-          <Link to={""} className={` text-xl mx-3 hidden md:block ${isDark?"text-blue-600":"text-blue-700"}`}>
-            Sign-up
-          </Link>
+          
           <Link to={"/login"} className={` text-xl mx-3 hidden md:block ${isDark?"text-blue-600":"text-blue-700"}`}>
             Log-in
           </Link>
