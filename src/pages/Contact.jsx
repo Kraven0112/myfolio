@@ -15,7 +15,7 @@ export default function Contact() {
       <BackBtn/>
 
       <div className="sm:mt-5">
-        <h1 className={`text-xl text-center  lg:text-6xl font-bold ${isDark?"text-emerald-600":"text-emerald-700"}`}>
+        <h1 className={`text-4xl text-center  lg:text-6xl font-bold ${isDark?"":"text-emerald-700"}`}>
           Contacts
         </h1>
       </div>

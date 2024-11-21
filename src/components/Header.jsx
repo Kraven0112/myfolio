@@ -14,7 +14,7 @@ export default function Header() {
         <div>
           <h1
             className={`text-xl sm:text-2xl font-bold ${
-              isDark ? "text-blue-600" : "text-blue-700"
+              isDark ? "" : "text-blue-700"
             }`}
           >
           {" </ Coder >"}
@@ -52,11 +52,11 @@ export default function Header() {
           >
             <i className="fa-solid fa-bars"></i>
           </button>
-          <Link to={'/signin'} className={` text-xl mx-3 hidden md:block ${isDark?"text-blue-600":"text-blue-700"}`}>
+          <Link to={'/signin'} className={` text-xl mx-3 hidden md:block ${isDark?"":"text-blue-700"}`}>
             Sign-in
           </Link>
           
-          <Link to={"/login"} className={` text-xl mx-3 hidden md:block ${isDark?"text-blue-600":"text-blue-700"}`}>
+          <Link to={"/login"} className={` text-xl mx-3 hidden md:block ${isDark?"":"text-blue-700"}`}>
             Log-in
           </Link>
         </div>
