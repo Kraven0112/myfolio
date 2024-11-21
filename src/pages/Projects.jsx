@@ -13,7 +13,7 @@ export default function Projects() {
     >
       <BackBtn/>
       <div>
-        <h1 className={`text-center text-2xl sm:text-6xl  font-bold ${isDark?"textAnimation":"text-purple-800"}`}>My Projects</h1>
+        <h1 className={`text-center text-4jxl underline sm:text-6xl  font-bold ${isDark?"textAnimation":"text-purple-800"}`}>My Projects</h1>
       </div>
 
       <Link
