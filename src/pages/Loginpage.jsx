@@ -18,9 +18,9 @@ export default function Loginpage() {
           isDark ? "bg-slate-800" : "border-black"
         }`}
       >
-        <h1 className={`text-center text-4xl md:text-6xl font-bold ${isDark?"text-purple-400":"text-blue-700"}`}>Login</h1>
+        <h1 className={`text-center text-4xl md:text-4xl font-bold ${isDark?"text-purple-400":"text-blue-700"}`}>Login</h1>
         <div className=" mt-4 md:mt-5">
-          <label htmlFor="username" className="text-2xl md:text-[27px]">Email</label> <br />
+          <label htmlFor="username" className="text-2xl md:text-[24px]">Email</label> <br />
           <input
             type="text"
             id="username"
@@ -30,7 +30,7 @@ export default function Loginpage() {
           />
         </div>
         <div className=" mt-4 md:mt-5">
-          <label htmlFor="password" className="text-2xl md:text-[27px]">Password</label> <br />
+          <label htmlFor="password" className="text-2xl md:text-[24px]">Password</label> <br />
           <input
             type="text/number"
             id="password"

@@ -25,6 +25,7 @@ import Telegram from "./Contacts/Telegram"
 import LinkedIn from "./Contacts/LinkedIn"
 import Loginpage from "./pages/Loginpage"
 import Blog from "./pages/Blog"
+import Signin from "./pages/Signin"
 import './index.css'
 import './App.css'
 
@@ -125,6 +126,10 @@ const route = createBrowserRouter([
             {
                 path: "/blog",
                 element: <Blog />
+            },
+            {
+                path:"/signin",
+                element:<Signin/>
             }
         ]
     }
