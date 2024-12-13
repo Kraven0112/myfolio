@@ -9,13 +9,12 @@ export default function AllInfo() {
     <main className={`min-h-[89.5vh] p-4 ${isDark?"bg-slate-950 text-white":""}`}>
         <BackBtn/>
       <div className='max-w-[1250px] mx-auto'>
-        <h1 className={`text-center text-2xl sm:text-4xl font-bold ${isDark?"textAnimation":""}`}>All Information</h1>
         <div className={`max-w-[1000px] mt-7 sm:mt-5 mx-auto p-3 rounded-lg ${isDark?"shadow-lg shadow-gray-50":" shadow-xl border"}`}>
             <h1 className='text-xl sm:mt-4 sm:text-2xl'><b>Name :</b> Sushil Chaudhary</h1>
             <h1 className='text-xl sm:mt-4 sm:text-2xl'><b>Country :</b> Nepal</h1>
             <div className='mt-5'>
                 <span className='text-xl sm:text-2xl text-green-600'><b>Education Level :-</b></span>
-                <span className='text-xl sm:text-2xl text-pretty'>12th passed</span>
+                <span className='text-xl sm:text-2xl text-pretty'>Bachelor Dropout</span>
             </div>
 
             <div className='mt-5'>

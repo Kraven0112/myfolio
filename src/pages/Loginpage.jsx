@@ -4,7 +4,6 @@ import BackBtn from "../components/BackBtn"
 
 export default function Loginpage() {
   const [isDark] = useContext(ThemeContext)
-
   return (
     <main
       className={`min-h-[95vh] sm:min-h-[89.5vh] p-5 ${
@@ -20,27 +19,27 @@ export default function Loginpage() {
       >
         <h1 className={`text-center text-4xl md:text-4xl font-bold ${isDark?"text-purple-400":"text-blue-700"}`}>Login</h1>
         <div className=" mt-4 md:mt-5">
-          <label htmlFor="username" className="text-2xl md:text-[24px]">Email</label> <br />
+          <label htmlFor="username" className="text-2xl md:text-[24px]">Email</label>
           <input
             type="text"
             id="username"
-            className={`outline-none px-2 text-xl w-full h-12 border-[1px] mt-1 ${
+            className={`outline-none px-2 text-xl w-full h-12 border-[1px] border-l-0 border-r-0 border-t-0 ${
               isDark ? "border-white bg-inherit" : " border-black"
             }`}
           />
         </div>
         <div className=" mt-4 md:mt-5">
-          <label htmlFor="password" className="text-2xl md:text-[24px]">Password</label> <br />
+          <label htmlFor="password" className="text-2xl md:text-[24px]">Password</label>
           <input
             type="text/number"
             id="password"
-            className={`outline-none px-2 text-xl  w-full h-12 border-[1px] mt-1 ${
+            className={`outline-none px-2 text-xl  w-full h-12 border-[1px] border-l-0 border-r-0 border-t-0 ${
               isDark ? "border-white bg-inherit" : " border-black"
             }`}
           />
         </div>
             <div className=" mt-4 md:mt-5 text-center"> 
-            <button className={` w-32 h-10 text-xl  md:w-36 md:text-2xl md:h-10 rounded-md border-[1px] ${isDark?"bg-purple-500":"bg-blue-700 text-white border-white"}`}>Login</button>
+            <button  className={` w-32 h-14 text-xl  md:w-40 md:text-2xl md:h-10 rounded-md border-[1px] ${isDark?"bg-purple-500":"bg-blue-700 text-white border-white"}`}>Login</button>
             </div>
       </form>
     </main>

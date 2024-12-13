@@ -14,12 +14,6 @@ export default function Contact() {
       
       <BackBtn/>
 
-      <div className="sm:mt-5">
-        <h1 className={`text-4xl text-center underline lg:text-6xl font-bold ${isDark?"":"text-emerald-700"}`}>
-          Contacts
-        </h1>
-      </div>
-
       <section className="max-w-[1300px] mt-3 sm:mt-5 sm:mx-auto sm:p-1 gap-y-20 grid sm:grid-cols-2 sm:gap-x-3 sm:gap-y-10">
         <Link
           to={'/whatsapp'}
