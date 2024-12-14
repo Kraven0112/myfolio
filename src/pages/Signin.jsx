@@ -21,7 +21,7 @@ export default function Signin(){
                     <input
                         type="text"
                         id="username"
-                        className={`outline-none px-2 text-xl w-full h-12 border-[1px] mt-1 ${isDark ? "border-white bg-inherit" : " border-black"
+                        className={`outline-none px-2 text-xl w-full h-10 border-[1px] border-l-0 border-r-0 border-t-0 ${isDark ? "border-white bg-inherit" : " border-black"
                             }`}
                     />
                 </div>
@@ -30,7 +30,7 @@ export default function Signin(){
                     <input
                         type="text"
                         id="username"
-                        className={`outline-none px-2 text-xl w-full h-12 border-[1px] mt-1 ${isDark ? "border-white bg-inherit" : " border-black"
+                        className={`outline-none px-2 text-xl w-full h-10 border-[1px] border-l-0 border-r-0 border-t-0 ${isDark ? "border-white bg-inherit" : " border-black"
                             }`}
                     />
                 </div>
@@ -39,7 +39,7 @@ export default function Signin(){
                     <input
                         type="text"
                         id="username"
-                        className={`outline-none px-2 text-xl w-full h-12 border-[1px] mt-1 ${isDark ? "border-white bg-inherit" : " border-black"
+                        className={`outline-none px-2 text-xl w-full h-10 border-[1px] border-l-0 border-r-0 border-t-0 ${isDark ? "border-white bg-inherit" : " border-black"
                             }`}
                     />
                 </div>
@@ -48,7 +48,7 @@ export default function Signin(){
                     <input
                         type="text/number"
                         id="password"
-                        className={`outline-none px-2 text-xl  w-full h-12 border-[1px] mt-1 ${isDark ? "border-white bg-inherit" : " border-black"
+                        className={`outline-none px-2 text-xl  w-full h-10 border-[1px] border-l-0 border-r-0 border-t-0 ${isDark ? "border-white bg-inherit" : " border-black"
                             }`}
                     />
                 </div>

@@ -23,7 +23,7 @@ export default function Loginpage() {
           <input
             type="text"
             id="username"
-            className={`outline-none px-2 text-xl w-full h-12 border-[1px] border-l-0 border-r-0 border-t-0 ${
+            className={`outline-none px-2 text-xl w-full h-10 border-[1px] border-l-0 border-r-0 border-t-0 ${
               isDark ? "border-white bg-inherit" : " border-black"
             }`}
           />
@@ -33,7 +33,7 @@ export default function Loginpage() {
           <input
             type="text/number"
             id="password"
-            className={`outline-none px-2 text-xl  w-full h-12 border-[1px] border-l-0 border-r-0 border-t-0 ${
+            className={`outline-none px-2 text-xl  w-full h-10 border-[1px] border-l-0 border-r-0 border-t-0 ${
               isDark ? "border-white bg-inherit" : " border-black"
             }`}
           />
