@@ -60,7 +60,7 @@ export default function Homepage() {
 
       <div className="mt-20 sm:mt-8 text-center">
         <Link
-          to={"/information"}
+          to={"/project"}
           className={`text-xl sm:text-2xl ${
             isDark ? "text-cyan-600" : "text-purple-900"
           }`}

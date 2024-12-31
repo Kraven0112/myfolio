@@ -3,7 +3,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import App from "./App"
 import Homepage from "./pages/Homepage"
 import Contact from "./pages/Contact"
-import AllInfo from "./pages/AllInfo"
 import Projects from "./pages/Projects"
 import Counter from "./projects/Counter"
 import Stopwatch from "./projects/Stopwatch"
@@ -42,10 +41,6 @@ const route = createBrowserRouter([
             {
                 path: "/contact",
                 element: <Contact />
-            },
-            {
-                path: "/information",
-                element: <AllInfo />
             },
             {
                 path: "/project",
