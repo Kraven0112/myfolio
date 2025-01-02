@@ -19,7 +19,7 @@ export default function Allgrocery() {
     >
       <GrocerySearch fun1={setQuery} />
 
-      <section className=" space-y-5 sm:flex sm:items-center sm:justify-between sm:flex-wrap sm:gap-y-5 sm:mt-5 mt-5">
+      <section className="grid grid-cols-2 md:flex md:items-center md:justify-between md:flex-wrap md:gap-y-4 md:mt-5 mt-5">
         {allGrocery?.filter((grocery)=>{
             return grocery.title.toLowerCase().includes(query) || grocery.title.includes(query)
         })
