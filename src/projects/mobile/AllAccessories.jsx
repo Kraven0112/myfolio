@@ -16,7 +16,7 @@ export default function AllAccessories() {
       }`}>
       <AccessorySearch fun1={setQuery} fun2={setBrand} />
 
-      <section className=' space-y-5 sm:flex sm:items-center sm:justify-between sm:flex-wrap sm:gap-y-5 sm:mt-5 mt-5'>
+      <section className=' grid grid-cols-2  md:flex md:items-center md:justify-between md:flex-wrap md:gap-y-5 mt-5'>
         {
           allData?.filter((product)=>{
             return product.brand.includes(brand)
