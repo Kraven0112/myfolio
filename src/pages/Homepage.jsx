@@ -6,7 +6,7 @@ export default function Homepage() {
   const [isDark] = useContext(ThemeContext)
   return (
     <main
-      className={`min-h-[95vh] sm:min-h-[89.5vh] sm:flex flex-col items-center justify-center ${
+      className={`min-h-screen sm:flex flex-col items-center justify-center ${
         isDark
           ? "bg-slate-950 text-white"
           : ""

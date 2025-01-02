@@ -7,7 +7,7 @@ export default function Projects() {
   const [isDark] = useContext(ThemeContext)
   return (
     <main
-      className={`min-h-[100vh] sm:min-h-[89.5vh] p-4 grid grid-cols-2 md:grid-cols-1 ${
+      className={`min-h-screen p-4 grid grid-cols-2 md:grid-cols-1 ${
         isDark ? "bg-slate-950 text-white" : ""
       }`}
     >
