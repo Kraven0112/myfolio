@@ -7,7 +7,7 @@ export default function Projects() {
   const [isDark] = useContext(ThemeContext)
   return (
     <main
-      className={`min-h-[100vh] sm:min-h-[89.5vh] p-4 ${
+      className={`min-h-[100vh] sm:min-h-[89.5vh] p-4 grid grid-cols-2 md:grid-cols-1 ${
         isDark ? "bg-slate-950 text-white" : ""
       }`}
     >
@@ -15,7 +15,7 @@ export default function Projects() {
 
       <Link
         to={"/counter"}
-        className={`block sm:grid sm:grid-cols-2 sm:max-w-[1100px] sm:mx-auto sm:mt-10 mt-5 rounded-lg overflow-hidden ${isDark?"shadow-sm shadow-teal-500":"shadow-xl"}`}
+        className={`block md:grid md:grid-cols-2 md:max-w-[1100px] md:mx-auto md:mt-10 m-2 rounded-lg overflow-hidden ${isDark?"shadow-sm shadow-teal-500":"shadow-xl"}`}
       >
         <div>
           <img
@@ -24,14 +24,14 @@ export default function Projects() {
           />
         </div>
         <div className="text-center sm:flex sm:items-center sm:justify-center sm:flex-col p-2">
-          <h1 className="text-2xl sm:text-4xl text-green-600 font-bold">Simple Counter</h1>
-          <p className="text-xl sm:text-2xl sm:mt-3 mt-2"> Click to see the counter project</p>
+          <h1 className="text-sm md:text-4xl text-green-600 font-bold">Simple Counter</h1>
+          <p className="text-sm md:text-2xl sm:mt-3 mt-2"> Click to see the counter project</p>
         </div>
       </Link>
 
       <Link
         to={"/stopwatch"}
-        className={`block sm:grid sm:grid-cols-2 sm:max-w-[1100px] sm:mx-auto sm:mt-7 mt-5 rounded-lg overflow-hidden ${isDark?"shadow-sm shadow-teal-500":"shadow-xl"}`}
+        className={`block md:grid md:grid-cols-2 md:max-w-[1100px] md:mx-auto md:mt-7 m-2 rounded-lg overflow-hidden ${isDark?"shadow-sm shadow-teal-500":"shadow-xl"}`}
       >
         <div>
           <img
@@ -40,14 +40,14 @@ export default function Projects() {
           />
         </div>
         <div className="text-center sm:flex sm:items-center sm:justify-center sm:flex-col p-2">
-          <h1 className="text-2xl sm:text-4xl text-orange-500 font-bold">Stop Watch</h1>
-          <p className="text-xl sm:text-2xl sm:mt-3 mt-2">Click to see stop-watch project</p>
+          <h1 className="text-sm md:text-4xl text-orange-500 font-bold">Stop Watch</h1>
+          <p className="text-sm md:text-2xl sm:mt-3 mt-2">Click to see stop-watch project</p>
         </div>
       </Link>
 
       <Link
         to={"/jokes"}
-        className={`block sm:grid sm:grid-cols-2 sm:max-w-[1100px] sm:mx-auto sm:mt-7 mt-5 rounded-lg overflow-hidden ${isDark?"shadow-sm shadow-teal-500":"shadow-xl"}`}
+        className={`block md:grid md:grid-cols-2 md:max-w-[1100px] md:mx-auto md:mt-7 m-2 rounded-lg overflow-hidden ${isDark?"shadow-sm shadow-teal-500":"shadow-xl"}`}
       >
         <div>
           <img
@@ -56,14 +56,14 @@ export default function Projects() {
           />
         </div>
         <div className="text-center sm:flex sm:items-center sm:justify-center sm:flex-col p-2">
-          <h1 className="text-2xl sm:text-4xl text-pink-600 font-bold">Jokes</h1>
-          <p className="text-xl sm:text-2xl sm:mt-3 mt-2">Click to see jokes generator project</p>
+          <h1 className="text-sm md:text-4xl text-pink-600 font-bold">Jokes</h1>
+          <p className="text-sm md:text-2xl sm:mt-3 mt-2">Click to see jokes generator project</p>
         </div>
       </Link>
 
       <Link
         to={"/accessory"}
-        className={`block sm:grid sm:grid-cols-2 sm:max-w-[1100px] sm:mx-auto sm:mt-7 mt-5 rounded-lg overflow-hidden ${isDark?"shadow-sm shadow-teal-500":"shadow-xl"}`}
+        className={`block md:grid md:grid-cols-2 md:max-w-[1100px] md:mx-auto md:mt-7 m-2 rounded-lg overflow-hidden ${isDark?"shadow-sm shadow-teal-500":"shadow-xl"}`}
       >
         <div>
           <img
@@ -72,13 +72,13 @@ export default function Projects() {
           />
         </div>
         <div className="text-center sm:flex sm:items-center sm:justify-center sm:flex-col p-2">
-          <h1 className="text-2xl sm:text-4xl text-amber-600 font-bold"> Accessories</h1>
-          <p className="text-xl sm:text-2xl sm:mt-3 mt-2">Click to see mobile project</p>
+          <h1 className="text-sm md:text-4xl text-amber-600 font-bold"> Accessories</h1>
+          <p className="text-sm md:text-2xl sm:mt-3 mt-2">Click to see mobile project</p>
         </div>
       </Link>
       <Link
         to={"/grocery"}
-        className={`block sm:grid sm:grid-cols-2 sm:max-w-[1100px] sm:mx-auto sm:mt-7 mt-5 rounded-lg overflow-hidden ${isDark?"shadow-sm shadow-teal-500":"shadow-xl"}`}
+        className={`block md:grid md:grid-cols-2 md:max-w-[1100px] md:mx-auto md:mt-7 m-2 rounded-lg overflow-hidden ${isDark?"shadow-sm shadow-teal-500":"shadow-xl"}`}
       >
         <div>
           <img
@@ -87,13 +87,13 @@ export default function Projects() {
           />
         </div>
         <div className="text-center sm:flex sm:items-center sm:justify-center sm:flex-col p-2">
-          <h1 className="text-2xl sm:text-4xl text-green-600 font-bold">Grocery</h1>
-          <p className="text-xl sm:text-2xl sm:mt-3 mt-2">Click to see Grocery project</p>
+          <h1 className="text-sm md:text-4xl text-green-600 font-bold">Grocery</h1>
+          <p className="text-sm md:text-2xl sm:mt-3 mt-2">Click to see Grocery project</p>
         </div>
       </Link>
       <Link
         to={"/allcountry"}
-        className={`block sm:grid sm:grid-cols-2 sm:max-w-[1100px] sm:mx-auto sm:mt-7 mt-5 rounded-lg overflow-hidden ${isDark?"shadow-sm shadow-teal-500":"shadow-xl"}`}
+        className={`block md:grid md:grid-cols-2 md:max-w-[1100px] md:mx-auto md:mt-7 m-2 rounded-lg overflow-hidden ${isDark?"shadow-sm shadow-teal-500":"shadow-xl"}`}
       >
         <div>
           <img
@@ -102,13 +102,13 @@ export default function Projects() {
           />
         </div>
         <div className="text-center sm:flex sm:items-center sm:justify-center sm:flex-col p-2">
-          <h1 className="text-2xl sm:text-4xl text-purple-700 font-bold">Countries API</h1>
-          <p className="text-xl sm:text-2xl sm:mt-3 mt-2">Click to see rest-countries project</p>
+          <h1 className="text-sm md:text-4xl text-purple-700 font-bold">Countries API</h1>
+          <p className="text-sm md:text-2xl sm:mt-3 mt-2">Click to see rest-countries project</p>
         </div>
       </Link>
       <Link
         to={"/mix"}
-        className={`block sm:grid sm:grid-cols-2 sm:max-w-[1100px] sm:mx-auto sm:mt-7 mt-5 rounded-lg overflow-hidden ${isDark?"shadow-sm shadow-teal-500":"shadow-xl"}`}
+        className={`block md:grid md:grid-cols-2 md:max-w-[1100px] md:mx-auto md:mt-7 m-2 rounded-lg overflow-hidden ${isDark?"shadow-sm shadow-teal-500":"shadow-xl"}`}
       >
         <div>
           <img
@@ -117,13 +117,13 @@ export default function Projects() {
           />
         </div>
         <div className="text-center sm:flex sm:items-center sm:justify-center sm:flex-col p-2">
-          <h1 className="text-2xl sm:text-4xl text-violet-700 font-bold">Mixed Products</h1>
-          <p className="text-xl sm:text-2xl sm:mt-3 mt-2">Click to see mix products project</p>
+          <h1 className="text-sm md:text-4xl text-violet-700 font-bold">Mixed Products</h1>
+          <p className="text-sm md:text-2xl sm:mt-3 mt-2">Click to see mix products project</p>
         </div>
       </Link>
       <Link
         to={"/music"}
-        className={`block sm:grid sm:grid-cols-2 sm:max-w-[1100px] sm:mx-auto sm:mt-7 mt-5 rounded-lg overflow-hidden ${isDark?"shadow-sm shadow-teal-500":"shadow-xl"}`}
+        className={`block md:grid md:grid-cols-2 md:max-w-[1100px] md:mx-auto md:mt-7 m-2 rounded-lg overflow-hidden ${isDark?"shadow-sm shadow-teal-500":"shadow-xl"}`}
       >
         <div>
           <img
@@ -132,13 +132,13 @@ export default function Projects() {
           />
         </div>
         <div className="text-center sm:flex sm:items-center sm:justify-center sm:flex-col p-2">
-          <h1 className="text-2xl sm:text-4xl text-pink-700 font-bold">Music Player</h1>
-          <p className="text-xl sm:text-2xl sm:mt-3 mt-2">Click to see music player project</p>
+          <h1 className="text-sm md:text-4xl text-pink-700 font-bold">Music Player</h1>
+          <p className="text-sm md:text-2xl sm:mt-3 mt-2">Click to see music player project</p>
         </div>
       </Link>
       <Link
         to={"/cat"}
-        className={`block sm:grid sm:grid-cols-2 sm:max-w-[1100px] sm:mx-auto sm:mt-7 mt-5 rounded-lg overflow-hidden ${isDark?"shadow-sm shadow-teal-500":"shadow-xl"}`}
+        className={`block md:grid md:grid-cols-2 md:max-w-[1100px] md:mx-auto md:mt-7 m-2 rounded-lg overflow-hidden ${isDark?"shadow-sm shadow-teal-500":"shadow-xl"}`}
       >
         <div>
           <img
@@ -147,13 +147,13 @@ export default function Projects() {
           />
         </div>
         <div className="text-center sm:flex sm:items-center sm:justify-center sm:flex-col p-2">
-          <h1 className="text-2xl sm:text-4xl text-cyan-700 font-bold">Cat Images</h1>
-          <p className="text-xl sm:text-2xl sm:mt-3 mt-2">Click to see cat images project</p>
+          <h1 className="text-sm md:text-4xl text-cyan-700 font-bold">Cat Images</h1>
+          <p className="text-sm md:text-2xl sm:mt-3 mt-2">Click to see cat images project</p>
         </div>
       </Link>
       <Link
         to={"/dog"}
-        className={`block sm:grid sm:grid-cols-2 sm:max-w-[1100px] sm:mx-auto sm:mt-7 mt-5 rounded-lg overflow-hidden ${isDark?"shadow-sm shadow-teal-500":"shadow-xl"}`}
+        className={`block md:grid md:grid-cols-2 md:max-w-[1100px] md:mx-auto md:mt-7 m-2 rounded-lg overflow-hidden ${isDark?"shadow-sm shadow-teal-500":"shadow-xl"}`}
       >
         <div>
           <img
@@ -162,8 +162,8 @@ export default function Projects() {
           />
         </div>
         <div className="text-center sm:flex sm:items-center sm:justify-center sm:flex-col p-2">
-          <h1 className="text-2xl sm:text-4xl text-indigo-700 font-bold">Dog Images</h1>
-          <p className="text-xl sm:text-2xl sm:mt-3 mt-2">Click to see dog images project</p>
+          <h1 className="text-sm md:text-4xl text-indigo-700 font-bold">Dog Images</h1>
+          <p className="text-sm md:text-2xl sm:mt-3 mt-2">Click to see dog images project</p>
         </div>
       </Link>
     </main>
