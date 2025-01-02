@@ -14,7 +14,7 @@ export default function Contact() {
       
       <BackBtn/>
 
-      <section className="max-w-[1300px] mt-3 sm:mt-5 sm:mx-auto sm:p-1 gap-y-20 grid sm:grid-cols-2 sm:gap-x-3 sm:gap-y-10">
+      <section className="max-w-[1300px] mt-3 sm:mt-5 sm:mx-auto sm:p-1 gap-y-20 grid grid-cols-2 gap-x-3 sm:gap-y-10">
         <Link
           to={'/whatsapp'}
           className={`sm:min-h-[200px] min-h-[200px] sm:p-1 sm:rounded-lg ${
