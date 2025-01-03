@@ -9,7 +9,6 @@ export default function Allgrocery() {
   const [query, setQuery] = useState("")
   const data = useFetch("https://dummyjson.com/products/category/groceries")
   const allGrocery = data?.products
-  console.log(allGrocery)
 
   return (
     <main

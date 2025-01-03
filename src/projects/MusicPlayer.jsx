@@ -30,7 +30,7 @@ export default function MusicPlayer() {
       >
         <div
           className={`w-full  sm:w-[350px] sm:min-h-[490px] rounded-lg ${
-            isDark ? "sm:shadow-sm sm:bg-slate-800" : " sm:shadow-2xl sm:bg-emerald-600"
+            isDark ? "sm:shadow-sm sm:bg-sky-800" : " sm:shadow-2xl"
           } `}
         >
           <div className="mt-3">
