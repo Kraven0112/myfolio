@@ -19,7 +19,7 @@ export default function AllCountry() {
     >
       <SearchCountry fun1={setQuery} fun2={setContinent} />
 
-      <section className="sm:flex sm:items-center sm:justify-between sm:flex-wrap sm:gap-y-5  mt-5">
+      <section className="grid grid-cols-2  sm:flex sm:items-center sm:justify-center sm:flex-wrap sm:gap-4 gap-3  mt-5">
         {data?.filter((country)=>{
             return country.continents[0].includes(continent)
         })
