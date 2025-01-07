@@ -14,7 +14,6 @@ export default function WhatsApp() {
       <BackBtn />
         <div className="max-w-[1200px] mx-auto">
             <img className={`block mx-auto rounded-[50%] w-[200px] ${isDark?"shadow-lg shadow-white":"shadow-lg shadow-green-400"}`} src={myimage} alt="" />
-            <h1 className={`text-center mt-5 text-2xl md:text-4xl font-bold ${isDark?"textAnimation":"text-green-600"}`}>Sushil Chaudhary</h1>
         </div>
 
         <div className=" max-w-[1200px] mx-auto md:grid md:grid-cols-2 mt-4 box-border gap-5">
