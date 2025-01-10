@@ -1,21 +1,18 @@
 import React, { useContext } from "react"
 import { ThemeContext } from "../contexts/ThemeContext"
 import { Link } from "react-router-dom"
-import BackBtn from "../components/BackBtn"
 
 export default function Projects() {
   const [isDark] = useContext(ThemeContext)
   return (
     <main
-      className={`min-h-screen p-4 grid grid-cols-2 md:grid-cols-1 ${
+      className={`min-h-screen p-3 grid grid-cols-2 gap-2  ${
         isDark ? "bg-slate-950 text-white" : ""
       }`}
     >
-      <BackBtn/>
-
       <Link
         to={"/counter"}
-        className={`block md:grid md:grid-cols-2 md:max-w-[1100px] md:mx-auto md:mt-10 m-2 rounded-lg overflow-hidden ${isDark?"shadow-sm shadow-teal-500":"shadow-xl"}`}
+        className={`block md:grid md:grid-cols-2 md:max-w-[1100px] md:mt-10 m-2 rounded-lg overflow-hidden ${isDark?"shadow-sm shadow-teal-500":"shadow-xl"}`}
       >
         <div>
           <img

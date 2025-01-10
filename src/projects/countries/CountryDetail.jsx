@@ -69,27 +69,26 @@ export default function CountryDetail() {
         </div>
         <div className=" lg:space-y-5">
           <h1
-            className={` text-2xl sm:text-4xl lg:text-6xl font-bold ${
+            className={` text-2xl sm:text-4xl lg:text-6xl font-mono font-extrabold ${
               isDark ? "textAnimation" : "text-emerald-800"
             }`}
           >
             {single?.countryName}
           </h1>
-          <h1 className="text-xl sm:text-2xl font-bold"></h1>
-          <h1 className="text-xl sm:text-2xl font-bold">
+          <h1 className="text-xl sm:text-xl">
             Capital : {single?.capital}
           </h1>
-          <h1 className="text-xl sm:text-2xl font-bold">
+          <h1 className="text-xl sm:text-xl ">
             Continent : {single?.continent}
           </h1>
-          <p className="text-lg sm:text-xl font-bold r">
+          <p className="text-lg sm:text-xl">
             Population : {single?.population}
           </p>
           {!single?.borders ? (
-          <h1 className="text-xl md:text-2xl font-bold">I have no border countries. I am introvert country.</h1>
+          <h1 className="sm:text-xl">No border</h1>
         ) : (
           <div className="flex flex-wrap  mt-5">
-            <h1 className="text-xl font-bold">Border Countries : </h1>
+            <h1 className="text-xl">Border Countries : </h1>
             {single?.borders.map((border) => {
               return (
                 <Link
