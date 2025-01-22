@@ -6,7 +6,7 @@ export default function Loginpage() {
   const [isDark] = useContext(ThemeContext)
   return (
     <main
-      className={`min-h-screen p-5 ${isDark ? "bg-slate-950 text-white" : ""
+      className={`min-h-[89.vh] p-5 ${isDark ? "bg-slate-950 text-white" : ""
         }`}
     >
       <BackBtn />

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 export default function Blog() {
     const [isDark] = useContext(ThemeContext)
     return (
-        <main className={`min-h-screen p-4 ${isDark
+        <main className={`min-h-[89.5vh] p-4 ${isDark
             ? "bg-slate-950 text-white"
             : ""
             }`}>

@@ -12,7 +12,7 @@ export default function Allgrocery() {
 
   return (
     <main
-      className={`min-h-[100vh] sm:min-h-[89.5vh] p-4 ${
+      className={`min-h-[89.5vh] sm:min-h-[89.5vh] p-4 ${
         isDark ? "bg-slate-950 text-white " : ""
       }`}
     >
