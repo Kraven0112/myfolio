@@ -3,6 +3,7 @@ import { ThemeContext } from '../../contexts/ThemeContext'
 import AccessorySearch from './AccessorySearch'
 import useFetch from '../../customHooks/useFetch'
 import AccessoryCard from './AccessoryCard'
+import DuplicateCard from '../../components/DuplicateCard'
 
 export default function AllAccessories() {
     const[isDark]  = useContext(ThemeContext)
@@ -21,10 +22,10 @@ export default function AllAccessories() {
           allData?.filter((product)=>{
             return product.brand.includes(brand)
           })
-          .filter((product)=>{
+          ?.filter((product)=>{
             return product.title.toLowerCase().includes(query)
           })
-          .map((product)=>{
+          ?.map((product)=>{
             return(
               <AccessoryCard key={product.title} image={product.images[2]} title={product.title}/>
             )

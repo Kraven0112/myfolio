@@ -31,7 +31,7 @@ const handleDecrement = useCallback(()=>{
             isDark ? "text-emerald-600" : "text-sky-900"
           }`}
         >
-          Counter
+          counter
         </h1>
         <h1 className="text-4xl sm:text-6xl lg:text-6xl font-bold">{count}</h1>
         <div className="sm:space-x-5 space-x-5">
