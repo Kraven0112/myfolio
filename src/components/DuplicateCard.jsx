@@ -8,7 +8,7 @@ export default function DuplicateCard() {
             {
                 Array.from({ length: 100 }).map((ei, i) => {
                     return (
-                        <div key={i} className={`w-[200] h-[250px] rounded-xl md:rounded-2xl sm:w-[300px] md:w-[340px] md:h-[415px] hover:scale-[1] my-2 flex items-center justify-center ${isDark ? "shadow-sm shadow-white bg-transparent" : "shadow-lg bg-gray-100"}`}>
+                        <div key={i} className={`w-[200] h-[250px] rounded-xl md:rounded-2xl sm:w-[250px] md:w-[340px] md:h-[415px] hover:scale-[1] my-2 flex items-center justify-center ${isDark ? "shadow-sm shadow-white bg-transparent" : "shadow-lg bg-gray-100"}`}>
                             <div className="loader">
                             </div>
                         </div>
