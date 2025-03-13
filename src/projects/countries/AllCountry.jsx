@@ -24,7 +24,7 @@ export default function AllCountry() {
       <SearchCountry fun1={setQuery} fun2={setContinent} />
       {
         !data ? <DuplicateCard /> :
-          <section className="grid grid-cols-2 md:flex md:items-center md:justify-between md:flex-wrap md:gap-y-4 ">
+          <section className="grid grid-cols-2 md:flex md:items-center md:justify-between md:flex-wrap md:gap-y-4 gap-x-2 ">
             {data?.filter((country) => {
               return country.continents[0].includes(continent)
             })
