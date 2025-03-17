@@ -4,7 +4,7 @@ import { ThemeContext } from "../contexts/ThemeContext"
 export default function DuplicateCard() {
     const [isDark] = useContext(ThemeContext)
     return (
-        <div className={`grid grid-cols-2 md:flex md:items-center md:justify-between md:flex-wrap md:gap-y-4 gap-x-1  ${isDark ? "bg-black" : ""}`}>
+        <div className={`grid grid-cols-2 md:flex md:items-center md:justify-between md:flex-wrap md:gap-y-4 gap-x-1  ${isDark ? "bg-slate-950" : ""}`}>
             {
                 Array.from({ length: 100 }).map((ei, i) => {
                     return (
