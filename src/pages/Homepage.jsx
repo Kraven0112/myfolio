@@ -6,9 +6,9 @@ export default function Homepage() {
   const [isDark] = useContext(ThemeContext)
   return (
     <main
-      className={`min-h-[89.9vh] sm:flex flex-col items-center justify-center ${
+      className={`min-h-[89.7vh] sm:flex flex-col items-center justify-center ${
         isDark
-          ? "bg-slate-950 text-white"
+        ? "bg-[#421983] text-white"
           : ""
       }`}
     >
@@ -50,11 +50,11 @@ export default function Homepage() {
         </p>
       </div>
 
-      <div className="mt-20 sm:mt-8 text-center">
+      <div className="mt-20 sm:mt-10 text-center">
         <Link
           to={"/project"}
-          className={`text-xl sm:text-2xl ${
-            isDark ? "text-cyan-600" : "text-purple-900"
+          className={`text-xl sm:text-2xl font-semibold ${
+            isDark ? "text-cyan-300" : "text-blue-700"
           }`}
         >
           Explore more <i className="fa-solid fa-arrow-right"></i>

@@ -8,11 +8,10 @@ export default function Contact() {
   return (
     <main
       className={`min-h-[89.5vh] p-4 tracking-widest ${
-        isDark ? "bg-slate-950 text-white" : ""
+        isDark ? "bg-[#421983] text-white" : ""
       }`}
     >
-      
-      <BackBtn/>
+    
 
       <section className="max-w-[1300px] mt-3 sm:mt-5 sm:mx-auto sm:p-1 gap-y-20 grid grid-cols-2 gap-x-3 sm:gap-y-10">
         <Link
@@ -21,10 +20,10 @@ export default function Contact() {
             isDark ? "shadow-md shadow-green-600" : "shadow-xl"
           }`}
         >
-          <h1 className="text-center text-6xl sm:text-8xl text-green-600">
+          <h1 className={`text-center text-6xl sm:text-8xl ${isDark ? "" :"text-green-600"}`}>
             <i className="fa-brands fa-whatsapp"></i>
           </h1>
-          <p className="text-center mt-3 text-2xl  font-bold text-green-600">
+          <p className={`text-center mt-3 text-2xl  font-bold ${isDark ? "" :"text-green-600"}`}>
             WhatsApp
           </p>
         </Link>
@@ -35,10 +34,10 @@ export default function Contact() {
             isDark ? "shadow-md shadow-pink-600" : "shadow-xl"
           }`}
         >
-          <h1 className="text-center text-6xl sm:text-8xl text-pink-600">
+          <h1 className={`text-center text-6xl sm:text-8xl ${isDark ? "" : "text-pink-600"}`}>
             <i className="fa-brands fa-instagram"></i>
           </h1>
-          <p className="text-center mt-3 text-2xl font-bold text-pink-600">
+          <p className={`text-center mt-3 text-2xl  font-bold ${isDark ? "" : "text-pink-600"}`}>
             Instagram
           </p>
         </Link>
@@ -49,10 +48,10 @@ export default function Contact() {
             isDark ? "shadow-md shadow-blue-600" : "shadow-xl"
           }`}
         >
-          <h1 className="text-center text-6xl sm:text-8xl text-blue-600">
+          <h1 className={`text-center text-6xl sm:text-8xl ${isDark ? "" : "text-blue-600"}`}>
             <i className="fa-brands fa-telegram"></i>
           </h1>
-          <p className="text-center mt-3 text-2xl font-bold text-blue-600">
+          <p className={`text-center mt-3 text-2xl  font-bold ${isDark ? "" : "text-blue-600"}`}>
             Telegram
           </p>
         </Link>
@@ -63,10 +62,10 @@ export default function Contact() {
             isDark ? "shadow-md shadow-sky-600" : "shadow-xl"
           }`}
         >
-          <h1 className="text-center text-6xl sm:text-8xl text-sky-600">
+          <h1 className={`text-center text-6xl sm:text-8xl ${isDark ? "" : "text-sky-600"}`}>
             <i className="fa-brands fa-linkedin"></i>
           </h1>
-          <p className="text-center mt-3 text-2xl font-bold text-sky-600">
+          <p className={`text-center mt-3 text-2xl  font-bold ${isDark ? "" : "text-sky-600"}`}>
             Linked-In
           </p>
         </Link>
@@ -77,10 +76,10 @@ export default function Contact() {
             isDark ? "shadow-md shadow-teal-600" : "shadow-xl"
           }`}
         >
-          <h1 className="text-center text-6xl sm:text-8xl text-teal-600">
+          <h1 className={`text-center text-6xl sm:text-8xl ${isDark ? "" : "text-teal-600"}`}>
             <i className="fa-brands fa-github"></i>
           </h1>
-          <p className="text-center mt-3 text-2xl font-bold text-teal-600">
+          <p className={`text-center mt-3 text-2xl  font-bold ${isDark ? "" : "text-teal-600"}`}>
             GitHub
           </p>
         </Link>
@@ -91,10 +90,10 @@ export default function Contact() {
             isDark ? "shadow-md shadow-blue-600" : "shadow-xl"
           }`}
         >
-          <h1 className="text-center text-6xl sm:text-8xl text-blue-600">
+          <h1 className={`text-center text-6xl sm:text-8xl ${isDark ? "" : "text-blue-600"}`}>
             <i className="fa-brands fa-facebook"></i>
           </h1>
-          <p className="text-center mt-3 text-2xl font-bold text-blue-600">
+          <p className={`text-center mt-3 text-2xl  font-bold ${isDark ? "" : "text-blue-600"}`}>
             Facebook
           </p>
         </Link>

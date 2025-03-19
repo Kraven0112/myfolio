@@ -18,7 +18,7 @@ export default function AllCountry() {
 
   return (
     <main
-      className={`min-h-[89.5vh] sm:min-h-[89.5vh] p-4 ${isDark ? "bg-slate-950 text-white " : ""
+      className={`min-h-[89.5vh] sm:min-h-[89.5vh] p-4 ${isDark ? "bg-[#421983] text-white " : ""
         }`}
     >
       <SearchCountry fun1={setQuery} fun2={setContinent} />

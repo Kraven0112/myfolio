@@ -19,10 +19,9 @@ export default function MixProduct() {
   return (
     <main
       className={`min-h-[89.5vh] sm:min-h-[89.5vh] p-4 ${
-        isDark ? "bg-slate-950 text-white " : ""
+        isDark ? "bg-[#421983] text-white " : ""
       }`}
     >
-      <BackBtn />
       <div
         className={`max-w-[1050px] min-h-[750px] sm:min-h-[600px] rounded-lg mx-auto sm:mt-5 mt-10 ${
           isDark ? "sm:shadow-sm sm:shadow-white" : " sm:shadow-2xl"

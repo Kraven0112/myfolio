@@ -9,7 +9,7 @@ export default function AccessorySearch({fun1,fun2}) {
       <i className="fas fa-search"></i>
         <input type="text" placeholder='Search accessory' className='bg-transparent outline-none border-none w-[80%] sm:w-[90%]' onChange={(e)=>{fun1(e.target.value)}} />
       </div>
-      <select onChange={(e)=>{fun2(e.target.value)}} className={` w-[200px] sm:w-[300px] rounded-2xl p-2 text-xl ${isDark?"bg-slate-950 border":"outline-none shadow-xl"}`} name="" id="">
+      <select onChange={(e) => { fun2(e.target.value) }} className={` w-[200px] sm:w-[300px] rounded-2xl p-2 text-xl ${isDark ?"bg-[#421983] border":"outline-none shadow-xl"}`} name="" id="">
         <option hidden>Brands</option>
         <option value="Apple">Apple</option>
         <option value="Oppo">Oppo</option>

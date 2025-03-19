@@ -43,8 +43,7 @@ export default function Stopwatch() {
     }
 
   return (
-    <main className={`min-h-[89.5vh] sm:min-h-[89.5vh] p-5 ${isDark?"bg-slate-950 text-white":""}`}>
-      <BackBtn/>
+    <main className={`min-h-[89.5vh] sm:min-h-[89.5vh] p-5 ${isDark ?"bg-[#421983] text-white":""}`}>
       <div className={`max-w-[1050px] min-h-[600px] md:mt-5 mt-50 rounded-lg mx-auto ${
           isDark ? "md:shadow-sm md:shadow-white" : " md:shadow-2xl"
         } flex items-center justify-center flex-col gap-14 sm:gap-14`}>
@@ -61,7 +60,7 @@ export default function Stopwatch() {
           <button
           onClick={handleStop}
             className={`w-[90px] sm:w-[200px] lg:w-[250px] sm:h-12 sm:text-2xl rounded-lg font-bold ${
-              isDark ? "bg-orange-500 text-slate-950" : "shadow-xl bg-emerald-400"
+              isDark ? "bg-orange-500 text-white" : "shadow-xl bg-emerald-400"
             }`}
           >
             Stop
@@ -69,7 +68,7 @@ export default function Stopwatch() {
           <button
           onClick={handleStart}
             className={`w-[100px] sm:w-[200px] lg:w-[250px] sm:h-12 sm:text-2xl rounded-lg font-bold ${
-              isDark ? "bg-orange-500 text-slate-950" : "shadow-xl bg-emerald-400"
+              isDark ? "bg-orange-500 text-white" : "shadow-xl bg-emerald-400"
             }`}
           >
             Start
@@ -77,7 +76,7 @@ export default function Stopwatch() {
           <button
           onClick={handleReset}
             className={`w-[90px] sm:w-[200px] lg:w-[250px] sm:h-12 sm:text-2xl rounded-lg font-bold ${
-              isDark ? "bg-orange-500 text-slate-950" : "shadow-xl bg-emerald-400"
+              isDark ? "bg-orange-500 text-white" : "shadow-xl bg-emerald-400"
             }`}
           >
             Reset

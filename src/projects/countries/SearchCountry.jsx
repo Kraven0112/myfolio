@@ -25,7 +25,7 @@ export default function SearchCountry({ fun1, fun2 }) {
           fun2(e.target.value)
         }}
         className={` w-[200px] sm:w-[300px] rounded-2xl p-2 text-xl ${
-          isDark ? "bg-slate-950 border" : "outline-none shadow-xl"
+          isDark ? "bg-[#421983] border" : "outline-none shadow-xl"
         }`}
         name=""
         id=""

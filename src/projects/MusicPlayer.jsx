@@ -21,16 +21,15 @@ export default function MusicPlayer() {
   return (
     <main
       className={`min-h-[89.5vh] sm:min-font-boldh-[89.5vh] p-4 ${
-        isDark ? "bg-slate-950 text-white " : ""
+        isDark ? "bg-[#421983] text-white " : ""
       }`}
     >
-      <BackBtn />
       <div
         className={`max-w-[1050px] min-h-[750px] sm:min-h-[600px] rounded-lg mx-auto sm:mt-5 mt-10 flex items-center justify-center flex-col`}
       >
         <div
           className={`w-full  sm:w-[350px] sm:min-h-[490px] rounded-lg ${
-            isDark ? "sm:shadow-sm sm:bg-sky-800" : " sm:shadow-2xl"
+            isDark ? "sm:shadow-sm sm:bg-teal-800" : " sm:shadow-2xl sm:bg-teal-800 text-white "
           } `}
         >
           <div className="mt-3">

@@ -6,10 +6,9 @@ export default function Signin(){
     const [isDark] = useContext(ThemeContext)
     return(
         <main
-            className={`min-h-[89.5vh] p-5 ${isDark ? "bg-slate-950 text-white" : ""
+            className={`min-h-[89.5vh] p-5 ${isDark ? "bg-[#421983] text-white" : ""
                 }`}
         >
-            <BackBtn />
             <form
                 action="/"
                 className={`max-w-[600px]  lg:space-y-8 mx-auto p-3 mt-2 md:p-5 border-[1px] rounded-lg ${isDark ? "bg-slate-800" : "border-black"

@@ -17,10 +17,9 @@ const handleDecrement = useCallback(()=>{
   return (
     <main
       className={`min-h-[89.5vh] sm:min-h-[89.5vh] p-4 ${
-        isDark ? "bg-slate-950 text-white " : ""
+        isDark ? "bg-[#421983] text-white " : ""
       }`}
     >
-      <BackBtn/>
       <div
         className={`max-w-[1050px] min-h-[300px] sm:min-h-[600px] rounded-lg mx-auto sm:mt-5 mt-10 ${
           isDark ? "sm:shadow-sm sm:shadow-white" : " sm:shadow-2xl"
@@ -28,17 +27,17 @@ const handleDecrement = useCallback(()=>{
       >
         <h1
           className={` text-4xl md:text-6xl lg:text-8xl font-bold ${
-            isDark ? "text-emerald-600" : "text-sky-900"
+            isDark ? "text-yellow-600" : "text-sky-900"
           }`}
         >
-          counter
+          Counter
         </h1>
         <h1 className="text-4xl sm:text-6xl lg:text-6xl font-bold">{count}</h1>
         <div className="sm:space-x-5 space-x-5">
           <button
           onClick={handleDecrement}
             className={` p-1 w-[120px] sm:w-[300px] sm:h-12 sm:text-2xl rounded-lg font-bold ${
-              isDark ? "bg-green-500 text-slate-950" : "shadow-xl bg-orange-400"
+              isDark ? "bg-green-500 text-white" : "shadow-xl bg-orange-400"
             }`}
           >
             Decrement
@@ -46,7 +45,7 @@ const handleDecrement = useCallback(()=>{
           <button
           onClick={handleIncrement}
             className={` p-1 w-[120px] sm:w-[300px] sm:h-12 sm:text-2xl rounded-lg font-bold ${
-              isDark ? "bg-green-500 text-slate-950" : "shadow-xl bg-orange-400"
+              isDark ? "bg-green-500 text-white" : "shadow-xl bg-orange-400"
             }`}
           >
             Increment

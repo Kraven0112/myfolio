@@ -19,7 +19,7 @@ export default function Jokes() {
   return (
     <main
       className={`min-h-[89.5vh] sm:min-h-[89.5vh] p-4 ${
-        isDark ? "bg-slate-950 text-white " : ""
+        isDark ? "bg-[#421983] text-white " : ""
       }`}
     >
       <BackBtn/>
@@ -30,7 +30,7 @@ export default function Jokes() {
       >
         <h1
           className={` text-4xl md:text-6xl lg:text-8xl font-bold ${
-            isDark ? "text-emerald-500" : "text-sky-900"
+            isDark ? "text-yellow-500" : "text-sky-900"
           }`}
         >
           Jokes Generator

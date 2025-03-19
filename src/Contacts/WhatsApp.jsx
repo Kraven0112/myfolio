@@ -8,10 +8,9 @@ export default function WhatsApp() {
   return (
     <main
       className={`min-h-[89.5vh] sm:min-h-[89.5vh] p-4 ${
-        isDark ? "bg-slate-950 text-white " : ""
+        isDark ? "bg-[#421983] text-white " : ""
       }`}
     >
-      <BackBtn />
         <div className="max-w-[1200px] mx-auto">
             <img className={`block mx-auto rounded-[50%] w-[200px] ${isDark?"shadow-lg shadow-white":"shadow-lg shadow-green-400"}`} src={myimage} alt="" />
         </div>

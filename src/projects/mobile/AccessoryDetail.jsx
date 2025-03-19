@@ -27,7 +27,7 @@ export default function AccessoryDetail() {
   return (
     <main
       className={`min-h-[89.5vh] sm:min-h-[89.5vh] p-4 ${
-        isDark ? "bg-slate-950 text-white " : ""
+        isDark ? "bg-[#421983] text-white " : ""
       }`}
     >
       <BackBtn/>
