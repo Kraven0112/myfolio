@@ -27,7 +27,7 @@ export default function Header() {
           <Link to={"/blog"}>Blogs</Link>
         </nav>
         <div className="flex">
-          <Link to={"/"} className={` text-xl mx-4 lg:hidden block`}>
+          <Link to={"/"} className={` text-xl mx-4 lg:hidden block ${isDark ? "text-white" :"text-[#421983]"}`}>
             <i className="fa-solid fa-home"></i>
           </Link>
           <Link
@@ -48,7 +48,7 @@ export default function Header() {
             onClick={() => {
               setVisibility(!isVisible)
             }}
-            className={` text-xl md:hidden block`}
+            className={` text-xl md:hidden block ${isDark ? "text-white " : "text-[#421983]"}`}
           >
             <i className="fa-solid fa-bars"></i>
           </button>
