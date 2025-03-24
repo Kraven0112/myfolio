@@ -1,6 +1,5 @@
 import { useContext } from "react"
 import { ThemeContext } from "../contexts/ThemeContext"
-import BackBtn from '../components/BackBtn'
 import { Link } from "react-router-dom"
 
 export default function Blog() {

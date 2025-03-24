@@ -1,7 +1,6 @@
 import React, { useContext } from "react"
 import { ThemeContext } from "../contexts/ThemeContext"
 import { Link } from "react-router-dom"
-import BackBtn from "../components/BackBtn"
 
 export default function Contact() {
   const [isDark] = useContext(ThemeContext)
