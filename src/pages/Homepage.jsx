@@ -8,7 +8,7 @@ export default function Homepage() {
     <main
       className={`min-h-[89.7vh] sm:flex flex-col items-center justify-center ${
         isDark
-        ? "bg-[#421983] text-white"
+        ? "bg-[#1a1a1a] text-white"
           : ""
       }`}
     >

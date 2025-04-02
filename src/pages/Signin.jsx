@@ -5,7 +5,7 @@ export default function Signin(){
     const [isDark] = useContext(ThemeContext)
     return(
         <main
-            className={`min-h-[89.5vh] p-5 ${isDark ? "bg-[#421983] text-white" : ""
+            className={`min-h-[89.5vh] p-5 ${isDark ? "bg-[#1a1a1a] text-white" : ""
                 }`}
         >
             <form

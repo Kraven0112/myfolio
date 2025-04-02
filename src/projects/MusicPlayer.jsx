@@ -21,7 +21,7 @@ export default function MusicPlayer() {
   return (
     <main
       className={`min-h-[89.5vh] sm:min-font-boldh-[89.5vh] p-4 ${
-        isDark ? "bg-[#421983] text-white " : ""
+        isDark ? "bg-[#1a1a1a] text-white " : ""
       }`}
     >
       <div

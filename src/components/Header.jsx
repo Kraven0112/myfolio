@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header
       className={` backdrop-blur-2xl tracking-widest sticky top-0 z-10  ${
-        isDark ? " bg-[#421983] text-white" : " bg-white"
+        isDark ? " bg-[#1a1a1a] text-white" : " bg-white"
       }`}
     >
       <div className="max-w-[1300px] h-20 mx-auto flex items-center justify-between">

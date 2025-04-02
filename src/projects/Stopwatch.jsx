@@ -43,7 +43,7 @@ export default function Stopwatch() {
     }
 
   return (
-    <main className={`min-h-[89.5vh] sm:min-h-[89.5vh] p-5 ${isDark ?"bg-[#421983] text-white":""}`}>
+    <main className={`min-h-[89.5vh] sm:min-h-[89.5vh] p-5 ${isDark ?"bg-[#1a1a1a] text-white":""}`}>
       <div className={`max-w-[1050px] min-h-[600px] md:mt-5 mt-50 rounded-lg mx-auto ${
           isDark ? "md:shadow-sm md:shadow-white" : " md:shadow-2xl"
         } flex items-center justify-center flex-col gap-14 sm:gap-14`}>

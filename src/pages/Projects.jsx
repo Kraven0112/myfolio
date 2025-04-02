@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <main
       className={`min-h-[89.5vh] p-3 grid grid-cols-2 gap-2  ${
-        isDark ? "bg-[#421983] text-white" : ""
+        isDark ? "bg-[#1a1a1a] text-white" : ""
       }`}
     >
       <Link

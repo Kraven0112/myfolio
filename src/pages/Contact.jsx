@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <main
       className={`min-h-[89.5vh] p-4 tracking-widest ${
-        isDark ? "bg-[#421983] text-white" : ""
+        isDark ? "bg-[#1a1a1a] text-white" : ""
       }`}
     >
     
