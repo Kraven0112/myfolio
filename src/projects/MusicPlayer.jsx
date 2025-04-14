@@ -28,8 +28,8 @@ export default function MusicPlayer() {
         className={`max-w-[1050px] min-h-[750px] sm:min-h-[600px] rounded-lg mx-auto sm:mt-5 mt-10 flex items-center justify-center flex-col`}
       >
         <div
-          className={`w-full  sm:w-[350px] sm:min-h-[490px] rounded-lg ${
-            isDark ? "sm:shadow-sm sm:bg-teal-800" : " sm:shadow-2xl sm:bg-teal-800 text-white "
+          className={`w-full  sm:w-[350px] sm:min-h-[505px] rounded-lg ${
+            isDark ? "sm:shadow-sm sm:bg-[#1a1a1a] border" : " sm:shadow-2xl sm:bg-teal-800 text-white "
           } `}
         >
           <div className="mt-3">
@@ -50,6 +50,8 @@ export default function MusicPlayer() {
           <audio ref={ref}>
             <source src={song} />
           </audio>
+
+          <progress className="w-full h-1 mt-2 rounded-[50%]"></progress>
 
           <div className="text-center mt-20 md:mt-10 ">
             <button
